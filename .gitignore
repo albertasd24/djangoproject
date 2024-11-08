@@ -1,0 +1,59 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyd
+*.pdm.toml
+*.pdm.lock
+*.pdm-backup.toml
+
+# Django
+*.log
+db.sqlite3
+# Configuración de credenciales y settings locales
+.env
+.env.*
+
+# Entorno virtual
+venv/
+.env/
+env/
+venv.bak/
+
+# Archivos de migración generados
+*/migrations/
+!*/migrations/__init__.py
+
+# Archivos de IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación de front-end
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de compilación de assets y archivos estáticos
+staticfiles/
+media/
+
+# Archivos de coverage y testing
+coverage/
+*.cover
+*.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+htmlcov/
+
+# Archivos generados por PyCharm
+*.iml
+.idea/
+out/
